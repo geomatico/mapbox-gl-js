@@ -1,14 +1,14 @@
 {
-  "name": "mapbox-gl",
+  "name": "@geomatico/mapbox-gl",
   "description": "A WebGL interactive maps library",
-  "version": "2.2.0",
+  "version": "2.2.0-deck",
   "main": "dist/mapbox-gl.js",
   "style": "dist/mapbox-gl.css",
   "license": "SEE LICENSE IN LICENSE.txt",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapbox/mapbox-gl-js.git"
+    "url": "git://github.com/geomatico/mapbox-gl-js.git"
   },
   "engines": {
     "node": ">=6.4.0"

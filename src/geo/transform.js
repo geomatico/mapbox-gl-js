@@ -102,7 +102,7 @@ class Transform {
         this.cameraElevationReference = "ground";
 
         // Move the horizon closer to the center. 0 would not shift the horizon. 1 would put the horizon at the center.
-        this._horizonShift = 0.1;
+        this._horizonShift = 0;//0.1;
     }
 
     clone(): Transform {
@@ -266,7 +266,7 @@ class Transform {
         // Camera zoom describes the distance of the camera to the sea level (altitude). It is used only for manipulating the camera location.
         // The standard zoom (this._zoom) defines the camera distance to the terrain (height). Its behavior and conceptual meaning in determining
         // which tiles to stream is same with or without the terrain.
-        const elevationAtCenter = this._elevation.getAtPoint(MercatorCoordinate.fromLngLat(this.center), -1);
+        const elevationAtCenter = 0;//this._elevation.getAtPoint(MercatorCoordinate.fromLngLat(this.center), -1);
 
         if (elevationAtCenter === -1) {
             // Elevation data not loaded yet
